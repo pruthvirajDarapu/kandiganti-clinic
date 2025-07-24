@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (doctor) msg += "Doctor: " + doctor + "%0A";
             if (message) msg += "Message: " + message + "%0A";
 
-            var url = "https://wa.me/919493393059?text=" + msg;
+            var url = "https://wa.me/919063490684?text=" + msg;
             window.open(url, '_blank');
         };
     }
