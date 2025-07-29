@@ -21,6 +21,14 @@
       loop:true,
       autoplay:true,
     })
+    // Owl Carousel for Testimonials
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,               // enables arrows
+      navText: ["<", ">"],     // or use FontAwesome icons here
+      items: 1
+    });
 
 
     // PARALLAX EFFECT
